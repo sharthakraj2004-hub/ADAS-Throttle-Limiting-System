@@ -96,6 +96,10 @@ GND → All LED Resistors
 * Ultrasonic Distance Measurement
 * Real-Time Embedded Systems
 
+## Demonstration
+
+Please refer to the Hardware_Implementation_Video.mp4 file in the Results folder for a complete working demonstration of the system.
+
 ## Author
 
 Sharthak Raj
