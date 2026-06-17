@@ -45,6 +45,30 @@ This project implements an ADAS-inspired electronic throttle control prototype u
 | LED3                 | D4          |
 | LED4                 | D5          |
 
+## Manual Pin Mapping
+
+Arduino Uno
+A0  ← Potentiometer Output
+
+D2  → LED1 (Safe)
+D3  → LED2 (Caution)
+D4  → LED3 (Warning)
+D5  → LED4 (Emergency)
+
+D9  → HC-SR04 TRIG
+D10 ← HC-SR04 ECHO
+
+D13 → Servo Signal
+
+5V  → Potentiometer VCC
+5V  → HC-SR04 VCC
+5V  → Servo VCC
+
+GND → Potentiometer GND
+GND → HC-SR04 GND
+GND → Servo GND
+GND → All LED Resistors
+
 ## Working Principle
 
 1. The potentiometer simulates driver throttle demand.
